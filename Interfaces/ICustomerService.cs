@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BankApplication.Interfaces
 {
-    internal interface ICustomerService
+    public interface ICustomerService
     {
-        public Customer CreateCustomer(int id, string fName, string lName, string email, string phoneNumber, string password, string address, Gender gender, string accountNumber, decimal accountBalance, bool accountStatus);
+        public Customer CreateCustomer(string fName, string lName, string email, string phoneNumber, string password, string address, Gender gender);
+        public Customer UpdateCustomer(string fName, string lName, string email, string phoneNumber, string password, string address, Gender gender);
 
-        public Customer GetCustomer(string email);
-        public void GetAllCustomer();
+        public Customer GetCustomer(string accountNumber);
 
         public Customer LogInCustomer(string email, string password);
 

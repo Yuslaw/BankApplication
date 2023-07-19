@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BankApplication.Interfaces
 {
-    internal interface GeneralInterface
+    public interface GeneralInterface
     {
+        public void GetAllCustomer();
     }
 }

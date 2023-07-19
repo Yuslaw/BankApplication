@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BankApplication.Interfaces
 {
-    internal interface ICustomerMenu
+    public interface ICustomerMenu
     {
        
 
