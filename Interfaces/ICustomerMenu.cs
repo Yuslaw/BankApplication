@@ -9,6 +9,15 @@ namespace BankApplication.Interfaces
 {
     public interface ICustomerMenu
     {
+        public void CreateAaccountMenu();
+        public void UpdateAaccountMenu();
+        public void LogInCustomerMenu();
+        public void DepositMenu();
+        public void TransferMenu();
+        public void WithdrawalMenu();
+
+        public void CheckAccountBalanceMenu();
+        public void TransactionHistoryMenu();
        
 
     }

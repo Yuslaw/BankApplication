@@ -17,7 +17,7 @@ namespace BankApplication.Interfaces
 
         public Staff LogInStaff(string email, string password);
 
-        public bool ApproveAccount(string accountNumber, bool accountStatus);
-        public bool DeactivateAccount(string accountNumber, bool accountStatus);
+       
+        
     }
 }

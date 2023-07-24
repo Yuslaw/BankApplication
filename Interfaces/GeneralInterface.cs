@@ -9,5 +9,7 @@ namespace BankApplication.Interfaces
     public interface GeneralInterface
     {
         public void GetAllCustomer();
+        public void ApproveAccount(string accountNumber, bool accountStatus);
+        public void DeactivateAccount(string accountNumber, bool accountStatus);
     }
 }

@@ -18,6 +18,6 @@ namespace BankApplication.Interfaces
 
         public void Deposit(string accountNumber, decimal ammount);
         public void Withdraw(string accountNumber, decimal ammount);
-        public void Transfer(string SenderaccountNumber, string receiverAccountNumber, decimal ammount);
+        public void Transfer(string senderaccountNumber, string receiverAccountNumber, decimal ammount);
     }
 }

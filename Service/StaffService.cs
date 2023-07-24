@@ -12,10 +12,7 @@ namespace BankApplication.Service
     {
         public static List<Staff> staffList = new List<Staff>();
 
-        public bool ApproveAccount(string accountNumber, bool accountStatus)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public Staff CreateStaff(string fName, string lName, string email, string phoneNumber, string password, string address, Gender gender, Level level)
         {
@@ -25,10 +22,6 @@ namespace BankApplication.Service
             throw new NotImplementedException();
         }
 
-        public bool DeactivateAccount(string accountNumber, bool accountStatus)
-        {
-            throw new NotImplementedException();
-        }
 
         public void GetAllStaff()
         {
